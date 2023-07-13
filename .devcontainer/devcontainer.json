@@ -1,0 +1,21 @@
+{
+	"image": "mcr.microsoft.com/vscode/devcontainers/base",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"golang.go",
+				"ms-vscode.azure-account"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/go:1": {
+            		"version": "latest"
+		},
+		"azure-cli": {
+			"version": "latest"
+		}
+	},
+	"remoteUser": "vscode"
+}
