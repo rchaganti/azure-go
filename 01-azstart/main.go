@@ -10,7 +10,7 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources"
 )
 
-const subscriptionID = "5073fd4c-3a1b-4559-8371-21e034f70820"
+const subscriptionID = "5073ff70820"
 
 func main() {
 	cred, err := azidentity.NewAzureCLICredential(nil)
